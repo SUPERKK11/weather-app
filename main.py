@@ -15,7 +15,7 @@ def get_weather(city, api_key):
 # Streamlit app
 st.title("Weather Chatbot")
 
-api_key = st.secrets["api_key"]  # Use secrets for API key security
+api_key = "b91d8296da657b3f28c6663ad9759c04" # Use secrets for API key security
 
 city = st.text_input("Enter a city name:")
 
